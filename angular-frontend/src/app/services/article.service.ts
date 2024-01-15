@@ -11,7 +11,7 @@ import { MatPaginator } from "@angular/material/paginator";
   providedIn: "root",
 })
 export class ArticleService {
-  AUTH_SERVER = "http://localhost:3000";
+  AUTH_SERVER = "https://angular-admin.onrender.com";
 
   dataSource: any = [];
 

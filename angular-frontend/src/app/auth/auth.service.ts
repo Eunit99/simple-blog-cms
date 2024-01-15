@@ -18,7 +18,7 @@ import { ArticleService } from '../services/article.service';
 
 export class AuthService {
 
-  AUTH_SERVER = 'http://localhost:3000';
+  AUTH_SERVER = 'https://angular-admin.onrender.com';
 
   authSubject = new BehaviorSubject(false);
 
