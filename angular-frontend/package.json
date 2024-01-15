@@ -15,11 +15,11 @@
     "license": "ISC",
     "author": "Emmanuel Uchenna",
     "scripts": {
-        "build": "SET NODE_OPTIONS=--openssl-legacy-provider && ng build",
+        "build": "NODE_OPTIONS=--openssl-legacy-provider && ng build",
         "e2e": "SET NODE_OPTIONS=--openssl-legacy-provider && ng e2e",
         "test": "SET NODE_OPTIONS=--openssl-legacy-provider && ng test",
         "lint": "SET NODE_OPTIONS=--openssl-legacy-provider && ng lint",
-        "start": "SET NODE_OPTIONS=--openssl-legacy-provider && ng start"
+        "start": "NODE_OPTIONS=--openssl-legacy-provider && ng start"
     },
     "private": true,
     "dependencies": {
