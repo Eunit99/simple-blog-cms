@@ -1,0 +1,67 @@
+{
+    "name": "angular-frontend",
+    "version": "1.1.0",
+    "description": "Angular 2 simple Blog CMS",
+    "keywords": [
+        "angular",
+        "cms",
+        "blog"
+    ],
+    "readme": "README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eunit99/simple-blog-cms/tree/master/angular-frontend"
+    },
+    "license": "ISC",
+    "author": "Emmanuel Uchenna",
+    "scripts": {
+        "build": "SET NODE_OPTIONS=--openssl-legacy-provider && ng build",
+        "e2e": "SET NODE_OPTIONS=--openssl-legacy-provider && ng e2e",
+        "test": "SET NODE_OPTIONS=--openssl-legacy-provider && ng test",
+        "lint": "SET NODE_OPTIONS=--openssl-legacy-provider && ng lint",
+        "start": "SET NODE_OPTIONS=--openssl-legacy-provider && ng start"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "^9.0.7",
+        "@angular/cdk": "^9.1.3",
+        "@angular/common": "^9.0.7",
+        "@angular/compiler": "^9.0.7",
+        "@angular/core": "^9.0.7",
+        "@angular/forms": "^9.0.7",
+        "@angular/material": "^9.1.3",
+        "@angular/platform-browser": "^9.0.7",
+        "@angular/platform-browser-dynamic": "^9.0.7",
+        "@angular/router": "^9.0.7",
+        "@auth0/angular-jwt": "^4.0.0",
+        "core-js": "^3.6.4",
+        "rxjs": "^6.5.4",
+        "tslib": "^1.11.1",
+        "zone.js": "~0.10.3"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^0.900.7",
+        "@angular/cli": "^9.0.7",
+        "@angular/compiler-cli": "^9.0.7",
+        "@angular/language-service": "^9.0.7",
+        "@types/jasmine": "~3.5.9",
+        "@types/jasminewd2": "^2.0.8",
+        "@types/node": "~13.9.3",
+        "codelyzer": "^5.2.1",
+        "hammerjs": "^2.0.8",
+        "jasmine-core": "~3.5.0",
+        "jasmine-spec-reporter": "~5.0.0",
+        "jshint": "^2.11.0",
+        "karma": "^4.4.1",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage-istanbul-reporter": "^2.1.1",
+        "karma-jasmine": "~3.1.1",
+        "karma-jasmine-html-reporter": "^1.5.2",
+        "minimist": "^1.2.5",
+        "prettier": "^2.0.1",
+        "protractor": "^5.4.3",
+        "ts-node": "~8.8.1",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.5"
+    }
+}
